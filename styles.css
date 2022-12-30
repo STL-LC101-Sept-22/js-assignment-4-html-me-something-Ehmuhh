@@ -1,1 +1,56 @@
-/* Write your CSS here! */
+/*
+
+Follow these rules:
+
+Give a paragraph on your page the id of testP and a class name of 
+funParagraph. Use the class selector in styles.css to give it a color
+value of green.
+
+*/
+
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+    background-color: lightblue;
+    margin-block: 8px;
+}
+
+ol, ul {
+	list-style: none;
+}
+  
+#mainHeading {
+    color: red;
+    margin-left: 20px;
+  }
+
+h2, h3 {
+    color:navy;
+}
+
+p {
+    margin: 25px 50px;
+    padding: 25px 50px 75px 100px;
+}
+
+p#testP.funParagraph {
+    color: green;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+}
+  
